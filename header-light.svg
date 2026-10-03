@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Michał Bucki, full-stack web developer, Kraków">
+<style>
+  .bar { transform-box: fill-box; transform-origin: left center; animation: grow 7s ease-in-out infinite; }
+  @keyframes grow { 0% { transform: scaleX(0); } 12% { transform: scaleX(1); } 88% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+  .cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.2s ease-out infinite; }
+  @keyframes pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(2.6); opacity: 0; } }
+  .float { animation: float 6s ease-in-out infinite; }
+  @keyframes float { 50% { transform: translateY(-6px); } }
+  @media (prefers-reduced-motion: reduce) { .bar, .cursor, .pulse, .float { animation: none; } }
+</style>
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0d9488"/><stop offset=".55" stop-color="#0284c7"/><stop offset="1" stop-color="#4f46e5"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#eaeef2" stroke-width="1"/>
+  </pattern>
+  <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55">
+    <stop offset="0" stop-color="#0284c7" stop-opacity=".10"/>
+    <stop offset="1" stop-color="#0284c7" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset=".45" stop-color="#ffffff" stop-opacity=".2"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+  <clipPath id="frame"><rect width="1280" height="380" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1280" height="380" fill="#ffffff"/>
+  <rect width="1280" height="380" fill="url(#grid)"/>
+  <rect width="1280" height="380" fill="url(#fade)"/>
+  <rect width="1280" height="380" fill="url(#glow)"/>
+  <rect y="376" width="1280" height="4" fill="url(#accent)"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="379" rx="17.5" fill="none" stroke="#d8dee4"/>
+
+<!-- left: identity -->
+<text x="72" y="96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#57606a">
+  <tspan fill="#0d9488">~</tspan>/<tspan fill="#1f2328">vex864</tspan> <tspan fill="#4f46e5">$</tspan> whoami<tspan class="cursor" fill="#0d9488"> ▍</tspan>
+</text>
+<text x="70" y="168" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#1f2328" letter-spacing="-1.5">Michał Bucki</text>
+<text x="72" y="214" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="url(#accent)">Full-stack web developer</text>
+<text x="72" y="250" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#57606a">Privacy-first websites &amp; web apps for healthcare and small business</text>
+
+<g transform="translate(72 284)">
+  <rect width="156" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/>
+  <path transform="translate(16 10)" d="M8 0C4.7 0 2 2.6 2 5.9 2 10.3 8 18 8 18s6-7.7 6-12.1C14 2.6 11.3 0 8 0Zm0 8.2a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6Z" fill="#0d9488"/>
+  <text x="40" y="24.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Kraków, Poland</text>
+  <g transform="translate(168 0)">
+    <rect width="235" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/>
+    <circle class="pulse" cx="24" cy="19" r="5" fill="#1a7f37"/>
+    <circle cx="24" cy="19" r="5" fill="#1a7f37"/>
+    <text x="40" y="24.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1f2328">Open to freelance projects</text>
+  </g>
+</g>
+
+<!-- right: editor window -->
+<g class="float">
+  <rect x="790" y="72" width="420" height="236" rx="14" fill="#f6f8fa" stroke="#d8dee4"/>
+  <path d="M790 86a14 14 0 0 1 14-14h392a14 14 0 0 1 14 14v22H790Z" fill="#ffffff"/>
+  <line x1="790" y1="108" x2="1210" y2="108" stroke="#d8dee4"/>
+  <circle cx="810" cy="90" r="5.5" fill="#ff5f57"/>
+  <circle cx="828" cy="90" r="5.5" fill="#febc2e"/>
+  <circle cx="846" cy="90" r="5.5" fill="#28c840"/>
+  <text x="1000.0" y="95" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#57606a">app/page.tsx</text>
+  <text x="810" y="135" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">1</text><text x="810" y="151" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">2</text><text x="810" y="167" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">3</text><text x="810" y="183" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">4</text><text x="810" y="199" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">5</text><text x="810" y="215" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">6</text><text x="810" y="231" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">7</text><text x="810" y="247" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">8</text><text x="810" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">9</text><text x="810" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" fill="#a0a8b1">10</text>
+  <rect class="bar" style="animation-delay:0.00s" x="834" y="128" width="70" height="7" rx="3.5" fill="#4f46e5" opacity=".9"/><rect class="bar" style="animation-delay:0.08s" x="914" y="128" width="110" height="7" rx="3.5" fill="#1f2328" opacity=".9"/><rect class="bar" style="animation-delay:0.16s" x="1034" y="128" width="60" height="7" rx="3.5" fill="#0d9488" opacity=".9"/><rect class="bar" style="animation-delay:0.22s" x="858" y="144" width="90" height="7" rx="3.5" fill="#57606a" opacity=".55"/><rect class="bar" style="animation-delay:0.30s" x="958" y="144" width="140" height="7" rx="3.5" fill="#0284c7" opacity=".9"/><rect class="bar" style="animation-delay:0.44s" x="858" y="160" width="60" height="7" rx="3.5" fill="#4f46e5" opacity=".9"/><rect class="bar" style="animation-delay:0.52s" x="928" y="160" width="80" height="7" rx="3.5" fill="#1f2328" opacity=".9"/><rect class="bar" style="animation-delay:0.60s" x="1018" y="160" width="120" height="7" rx="3.5" fill="#0d9488" opacity=".9"/><rect class="bar" style="animation-delay:0.66s" x="882" y="176" width="150" height="7" rx="3.5" fill="#57606a" opacity=".55"/><rect class="bar" style="animation-delay:0.88s" x="882" y="192" width="70" height="7" rx="3.5" fill="#0284c7" opacity=".9"/><rect class="bar" style="animation-delay:0.96s" x="962" y="192" width="110" height="7" rx="3.5" fill="#1f2328" opacity=".9"/><rect class="bar" style="animation-delay:1.10s" x="858" y="208" width="40" height="7" rx="3.5" fill="#4f46e5" opacity=".9"/><rect class="bar" style="animation-delay:1.32s" x="834" y="224" width="20" height="7" rx="3.5" fill="#57606a" opacity=".55"/><rect class="bar" style="animation-delay:1.76s" x="834" y="256" width="90" height="7" rx="3.5" fill="#4f46e5" opacity=".9"/><rect class="bar" style="animation-delay:1.84s" x="934" y="256" width="130" height="7" rx="3.5" fill="#0d9488" opacity=".9"/><rect class="bar" style="animation-delay:1.98s" x="858" y="272" width="170" height="7" rx="3.5" fill="#57606a" opacity=".55"/>
+</g>
+</svg>

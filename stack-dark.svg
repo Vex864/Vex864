@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="336" viewBox="0 0 1280 336" role="img" aria-label="Tech stack">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1b2433" stroke-width="1"/>
+  </pattern>
+  
+</defs>
+<rect x=".5" y=".5" width="1279" height="335" rx="17.5" fill="#111827" stroke="#1f2a3a"/>
+<text x="40" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Tech stack</text>
+<rect x="40" y="58" width="44" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="40" y="102" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8b98a9" letter-spacing=".5">FRONTEND</text>
+  <g transform="translate(250 76)">
+    <rect width="92" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#61dafb"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">React</text>
+  </g><g transform="translate(352 76)">
+    <rect width="102" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#e6edf3"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Next.js</text>
+  </g><g transform="translate(464 76)">
+    <rect width="128" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#3178c6"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">TypeScript</text>
+  </g><g transform="translate(602 76)">
+    <rect width="168" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#38bdf8"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Tailwind CSS v4</text>
+  </g><g transform="translate(780 76)">
+    <rect width="123" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#e6edf3"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">shadcn/ui</text>
+  </g><g transform="translate(913 76)">
+    <rect width="136" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#e34f26"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">HTML / CSS</text>
+  </g><line x1="40" y1="128" x2="1240" y2="128" stroke="#1f2a3a" stroke-dasharray="2 6"/><text x="40" y="166" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8b98a9" letter-spacing=".5">BACKEND</text>
+  <g transform="translate(250 140)">
+    <rect width="102" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#3776ab"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Python</text>
+  </g><g transform="translate(362 140)">
+    <rect width="89" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#e6edf3"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Flask</text>
+  </g><g transform="translate(461 140)">
+    <rect width="124" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#3ecf8e"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Supabase</text>
+  </g><g transform="translate(594 140)">
+    <rect width="145" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#d71f00"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">SQLAlchemy</text>
+  </g><g transform="translate(750 140)">
+    <rect width="101" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#5a67d8"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Prisma</text>
+  </g><g transform="translate(861 140)">
+    <rect width="91" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#dc382d"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Redis</text>
+  </g><line x1="40" y1="192" x2="1240" y2="192" stroke="#1f2a3a" stroke-dasharray="2 6"/><text x="40" y="230" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8b98a9" letter-spacing=".5">DATA &amp; INFRA</text>
+  <g transform="translate(250 204)">
+    <rect width="136" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#4169e1"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">PostgreSQL</text>
+  </g><g transform="translate(396 204)">
+    <rect width="102" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#4479a1"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">MySQL</text>
+  </g><g transform="translate(508 204)">
+    <rect width="99" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#0f80cc"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">SQLite</text>
+  </g><g transform="translate(617 204)">
+    <rect width="92" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#009639"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">nginx</text>
+  </g><g transform="translate(718 204)">
+    <rect width="72" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#f05032"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Git</text>
+  </g><line x1="40" y1="256" x2="1240" y2="256" stroke="#1f2a3a" stroke-dasharray="2 6"/><text x="40" y="294" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#8b98a9" letter-spacing=".5">AI &amp; AUTOMATION</text>
+  <g transform="translate(250 268)">
+    <rect width="146" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#d97757"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Claude Code</text>
+  </g><g transform="translate(406 268)">
+    <rect width="79" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#ea4b71"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">n8n</text>
+  </g><g transform="translate(494 268)">
+    <rect width="108" height="40" rx="10" fill="#161f2e" stroke="#243044"/>
+    <circle cx="20" cy="20" r="5" fill="#ff6b9d"/>
+    <text x="34" y="25.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Lovable</text>
+  </g>
+</svg>

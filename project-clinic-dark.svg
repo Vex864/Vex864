@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-label="Featured project: clinic website and secure backend">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1b2433" stroke-width="1"/>
+  </pattern>
+  
+</defs>
+<rect x=".5" y=".5" width="1279" height="429" rx="17.5" fill="#111827" stroke="#1f2a3a"/>
+<rect x="0" y="0" width="6" height="430" rx="3" fill="url(#accent)"/>
+<text x="40" y="54" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#2dd4bf" letter-spacing="1.5">FEATURED · CLIENT WORK</text>
+<g transform="translate(797 34)"><rect width="109" height="28" rx="14" fill="none" stroke="#243044"/><text x="55" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b98a9">Python 3.12</text></g><g transform="translate(914 34)"><rect width="62" height="28" rx="14" fill="none" stroke="#243044"/><text x="31" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b98a9">Flask</text></g><g transform="translate(984 34)"><rect width="73" height="28" rx="14" fill="none" stroke="#243044"/><text x="37" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b98a9">MySQL</text></g><g transform="translate(1065 34)"><rect width="102" height="28" rx="14" fill="none" stroke="#243044"/><text x="51" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b98a9">Redis + RQ</text></g><g transform="translate(1176 34)"><rect width="64" height="28" rx="14" fill="none" stroke="#243044"/><text x="32" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b98a9">nginx</text></g>
+<text x="40" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#e6edf3">Clinic website &amp; secure patient-inquiry backend</text>
+<text x="40" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b98a9">Private medical clinic, Kraków. Trilingual website and patient-inquiry pipeline integrated</text>
+<text x="40" y="164" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b98a9">with the clinic's booking system. Full code ownership, no page builders or browser-side libraries.</text>
+<g transform="translate(40 196)">
+    <rect width="288" height="92" rx="12" fill="#161f2e" stroke="#243044"/>
+    <text x="20" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="url(#accent)">410</text>
+    <text x="20" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8b98a9">automated tests</text>
+  </g><g transform="translate(344 196)">
+    <rect width="288" height="92" rx="12" fill="#161f2e" stroke="#243044"/>
+    <text x="20" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="url(#accent)">3</text>
+    <text x="20" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8b98a9">languages · PL / EN / UA</text>
+  </g><g transform="translate(648 196)">
+    <rect width="288" height="92" rx="12" fill="#161f2e" stroke="#243044"/>
+    <text x="20" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="url(#accent)">71</text>
+    <text x="20" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8b98a9">routes, server-rendered</text>
+  </g><g transform="translate(952 196)">
+    <rect width="288" height="92" rx="12" fill="#161f2e" stroke="#243044"/>
+    <text x="20" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="url(#accent)">0.009</text>
+    <text x="20" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8b98a9">cumulative layout shift</text>
+  </g>
+<g transform="translate(40 322)"><path d="M2 8l4 4 8-9" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="26" y="13" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Health data encrypted before write (GDPR art. 9), audit log on every read</text></g><g transform="translate(40 352)"><path d="M2 8l4 4 8-9" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="26" y="13" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Strict CSP, no third-party scripts, fonts or CDNs</text></g><g transform="translate(40 382)"><path d="M2 8l4 4 8-9" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="26" y="13" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#e6edf3">Automated legal-compliance audit for medical advertising rules</text></g>
+</svg>
